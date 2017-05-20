@@ -30,7 +30,7 @@
                 against: 0,
                 anonymous: false,
                 user: {
-                    userId: $t.find('.uyan_cmt_uname').attr('id'),
+                    userId: $t.find('input[name=cmtId]').val(),
                     nickname: $t.find('.uyan_cmt_uname').attr('title'),
                     avatar: $t.find('.user-photo img').attr('src'),
                     anonymous: false
